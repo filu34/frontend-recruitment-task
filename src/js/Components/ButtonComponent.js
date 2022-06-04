@@ -1,9 +1,18 @@
 import CustomComponent from "../CustomComponent/CustomComponent.js";
-import StyleSheetLinkComponent from "./StyleSheetLinkComponent.js";
 
-const ButtonComponent = function( parent ) {
+const ButtonComponent = function( name, parent, type ) {
 	
 	const { createTagElement } = CustomComponent;
+	
+ 	const button = createTagElement(
+		"button",
+		parent,
+		{ type: type }
+	);
+
+	button.textContent = `${name}`;
+
+	return button;
 };
 
 export default ButtonComponent;
