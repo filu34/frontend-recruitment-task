@@ -1,0 +1,27 @@
+* {
+  font-family: "Roboto";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+article-title {
+  font-size: 5vw;
+  padding: 0 2%;
+}
+
+article {
+  font-size: 2vw;
+  padding: 10% 2%;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 2vw;
+  padding: 3% 9%;
+}
+
+/*# sourceMappingURL=ContentSectionStyles.css.map */

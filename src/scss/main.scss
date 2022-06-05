@@ -6,8 +6,16 @@
 
 section[type="main-section"] {
 	width: 100%;
-	height: 100%;
+	max-width: 1400px;
+	height: 100vh;
+	padding: 10%;
+	padding-bottom: 45%;
+	padding-top: 20%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+
+	content-section {
+		padding: 5%;
+	}
 }
